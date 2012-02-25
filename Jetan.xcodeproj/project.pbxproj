@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F6B6F9914F95FF900AEDBF3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6B6F9814F95FF900AEDBF3 /* Cocoa.framework */; };
+		7F6B6FA314F95FF900AEDBF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B6FA114F95FF900AEDBF3 /* InfoPlist.strings */; };
+		7F6B6FA514F95FF900AEDBF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B6FA414F95FF900AEDBF3 /* main.m */; };
+		7F6B6FA914F95FFA00AEDBF3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B6FA714F95FFA00AEDBF3 /* Credits.rtf */; };
+		7F6B6FAC14F95FFA00AEDBF3 /* MCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B6FAB14F95FFA00AEDBF3 /* MCAppDelegate.m */; };
+		7F6B6FAF14F95FFA00AEDBF3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B6FAD14F95FFA00AEDBF3 /* MainMenu.xib */; };
+		7F6B6FB714F95FFC00AEDBF3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6B6FB614F95FFC00AEDBF3 /* SenTestingKit.framework */; };
+		7F6B6FB814F95FFC00AEDBF3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6B6F9814F95FF900AEDBF3 /* Cocoa.framework */; };
+		7F6B6FC014F95FFC00AEDBF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B6FBE14F95FFC00AEDBF3 /* InfoPlist.strings */; };
+		7F6B6FC314F95FFC00AEDBF3 /* JetanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B6FC214F95FFC00AEDBF3 /* JetanTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F6B6FB914F95FFC00AEDBF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F6B6F8B14F95FF500AEDBF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F6B6F9314F95FF800AEDBF3;
+			remoteInfo = Jetan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F6B6F9414F95FF900AEDBF3 /* Jetan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jetan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6B6F9814F95FF900AEDBF3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7F6B6F9B14F95FF900AEDBF3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7F6B6F9C14F95FF900AEDBF3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7F6B6F9D14F95FF900AEDBF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F6B6FA014F95FF900AEDBF3 /* Jetan-Info.plist */ = {isa = PBXFileReference; path = "Jetan-Info.plist"; sourceTree = "<group>"; };
+		7F6B6FA214F95FF900AEDBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F6B6FA414F95FF900AEDBF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F6B6FA614F95FF900AEDBF3 /* Jetan-Prefix.pch */ = {isa = PBXFileReference; path = "Jetan-Prefix.pch"; sourceTree = "<group>"; };
+		7F6B6FA814F95FFA00AEDBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7F6B6FAA14F95FFA00AEDBF3 /* MCAppDelegate.h */ = {isa = PBXFileReference; path = MCAppDelegate.h; sourceTree = "<group>"; };
+		7F6B6FAB14F95FFA00AEDBF3 /* MCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAppDelegate.m; sourceTree = "<group>"; };
+		7F6B6FAE14F95FFA00AEDBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7F6B6FB514F95FFC00AEDBF3 /* JetanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JetanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6B6FB614F95FFC00AEDBF3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F6B6FBD14F95FFC00AEDBF3 /* JetanTests-Info.plist */ = {isa = PBXFileReference; path = "JetanTests-Info.plist"; sourceTree = "<group>"; };
+		7F6B6FBF14F95FFC00AEDBF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F6B6FC114F95FFC00AEDBF3 /* JetanTests.h */ = {isa = PBXFileReference; path = JetanTests.h; sourceTree = "<group>"; };
+		7F6B6FC214F95FFC00AEDBF3 /* JetanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JetanTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F6B6F9114F95FF800AEDBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B6F9914F95FF900AEDBF3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6B6FB114F95FFC00AEDBF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B6FB714F95FFC00AEDBF3 /* SenTestingKit.framework in Frameworks */,
+				7F6B6FB814F95FFC00AEDBF3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F6B6F8914F95FF500AEDBF3 = {
+			isa = PBXGroup;
+			children = (
+				7F6B6F9E14F95FF900AEDBF3 /* Jetan */,
+				7F6B6FBB14F95FFC00AEDBF3 /* JetanTests */,
+				7F6B6F9714F95FF900AEDBF3 /* Frameworks */,
+				7F6B6F9514F95FF900AEDBF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F6B6F9514F95FF900AEDBF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B6F9414F95FF900AEDBF3 /* Jetan.app */,
+				7F6B6FB514F95FFC00AEDBF3 /* JetanTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F6B6F9714F95FF900AEDBF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B6F9814F95FF900AEDBF3 /* Cocoa.framework */,
+				7F6B6FB614F95FFC00AEDBF3 /* SenTestingKit.framework */,
+				7F6B6F9A14F95FF900AEDBF3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F6B6F9A14F95FF900AEDBF3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B6F9B14F95FF900AEDBF3 /* AppKit.framework */,
+				7F6B6F9C14F95FF900AEDBF3 /* CoreData.framework */,
+				7F6B6F9D14F95FF900AEDBF3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7F6B6F9E14F95FF900AEDBF3 /* Jetan */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B6FAA14F95FFA00AEDBF3 /* MCAppDelegate.h */,
+				7F6B6FAB14F95FFA00AEDBF3 /* MCAppDelegate.m */,
+				7F6B6FAD14F95FFA00AEDBF3 /* MainMenu.xib */,
+				7F6B6F9F14F95FF900AEDBF3 /* Supporting Files */,
+			);
+			path = Jetan;
+			sourceTree = "<group>";
+		};
+		7F6B6F9F14F95FF900AEDBF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B6FA014F95FF900AEDBF3 /* Jetan-Info.plist */,
+				7F6B6FA114F95FF900AEDBF3 /* InfoPlist.strings */,
+				7F6B6FA414F95FF900AEDBF3 /* main.m */,
+				7F6B6FA614F95FF900AEDBF3 /* Jetan-Prefix.pch */,
+				7F6B6FA714F95FFA00AEDBF3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F6B6FBB14F95FFC00AEDBF3 /* JetanTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B6FC114F95FFC00AEDBF3 /* JetanTests.h */,
+				7F6B6FC214F95FFC00AEDBF3 /* JetanTests.m */,
+				7F6B6FBC14F95FFC00AEDBF3 /* Supporting Files */,
+			);
+			path = JetanTests;
+			sourceTree = "<group>";
+		};
+		7F6B6FBC14F95FFC00AEDBF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B6FBD14F95FFC00AEDBF3 /* JetanTests-Info.plist */,
+				7F6B6FBE14F95FFC00AEDBF3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F6B6F9314F95FF800AEDBF3 /* Jetan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6B6FC614F95FFC00AEDBF3 /* Build configuration list for PBXNativeTarget "Jetan" */;
+			buildPhases = (
+				7F6B6F9014F95FF800AEDBF3 /* Sources */,
+				7F6B6F9114F95FF800AEDBF3 /* Frameworks */,
+				7F6B6F9214F95FF800AEDBF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jetan;
+			productName = Jetan;
+			productReference = 7F6B6F9414F95FF900AEDBF3 /* Jetan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F6B6FB414F95FFC00AEDBF3 /* JetanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6B6FC914F95FFC00AEDBF3 /* Build configuration list for PBXNativeTarget "JetanTests" */;
+			buildPhases = (
+				7F6B6FB014F95FFC00AEDBF3 /* Sources */,
+				7F6B6FB114F95FFC00AEDBF3 /* Frameworks */,
+				7F6B6FB214F95FFC00AEDBF3 /* Resources */,
+				7F6B6FB314F95FFC00AEDBF3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F6B6FBA14F95FFC00AEDBF3 /* PBXTargetDependency */,
+			);
+			name = JetanTests;
+			productName = JetanTests;
+			productReference = 7F6B6FB514F95FFC00AEDBF3 /* JetanTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F6B6F8B14F95FF500AEDBF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Accenture;
+			};
+			buildConfigurationList = 7F6B6F8E14F95FF500AEDBF3 /* Build configuration list for PBXProject "Jetan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F6B6F8914F95FF500AEDBF3;
+			productRefGroup = 7F6B6F9514F95FF900AEDBF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F6B6F9314F95FF800AEDBF3 /* Jetan */,
+				7F6B6FB414F95FFC00AEDBF3 /* JetanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F6B6F9214F95FF800AEDBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B6FA314F95FF900AEDBF3 /* InfoPlist.strings in Resources */,
+				7F6B6FA914F95FFA00AEDBF3 /* Credits.rtf in Resources */,
+				7F6B6FAF14F95FFA00AEDBF3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6B6FB214F95FFC00AEDBF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B6FC014F95FFC00AEDBF3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7F6B6FB314F95FFC00AEDBF3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F6B6F9014F95FF800AEDBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B6FA514F95FF900AEDBF3 /* main.m in Sources */,
+				7F6B6FAC14F95FFA00AEDBF3 /* MCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F6B6FB014F95FFC00AEDBF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B6FC314F95FFC00AEDBF3 /* JetanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F6B6FBA14F95FFC00AEDBF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F6B6F9314F95FF800AEDBF3 /* Jetan */;
+			targetProxy = 7F6B6FB914F95FFC00AEDBF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F6B6FA114F95FF900AEDBF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6B6FA214F95FF900AEDBF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F6B6FA714F95FFA00AEDBF3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6B6FA814F95FFA00AEDBF3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7F6B6FAD14F95FFA00AEDBF3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6B6FAE14F95FFA00AEDBF3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7F6B6FBE14F95FFC00AEDBF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6B6FBF14F95FFC00AEDBF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F6B6FC414F95FFC00AEDBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7F6B6FC514F95FFC00AEDBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7F6B6FC714F95FFC00AEDBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jetan/Jetan-Prefix.pch";
+				INFOPLIST_FILE = "Jetan/Jetan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F6B6FC814F95FFC00AEDBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jetan/Jetan-Prefix.pch";
+				INFOPLIST_FILE = "Jetan/Jetan-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7F6B6FCA14F95FFC00AEDBF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jetan.app/Contents/MacOS/Jetan";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jetan/Jetan-Prefix.pch";
+				INFOPLIST_FILE = "JetanTests/JetanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7F6B6FCB14F95FFC00AEDBF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jetan.app/Contents/MacOS/Jetan";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jetan/Jetan-Prefix.pch";
+				INFOPLIST_FILE = "JetanTests/JetanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F6B6F8E14F95FF500AEDBF3 /* Build configuration list for PBXProject "Jetan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B6FC414F95FFC00AEDBF3 /* Debug */,
+				7F6B6FC514F95FFC00AEDBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6B6FC614F95FFC00AEDBF3 /* Build configuration list for PBXNativeTarget "Jetan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B6FC714F95FFC00AEDBF3 /* Debug */,
+				7F6B6FC814F95FFC00AEDBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7F6B6FC914F95FFC00AEDBF3 /* Build configuration list for PBXNativeTarget "JetanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B6FCA14F95FFC00AEDBF3 /* Debug */,
+				7F6B6FCB14F95FFC00AEDBF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F6B6F8B14F95FF500AEDBF3 /* Project object */;
+}
